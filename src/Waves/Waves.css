@@ -1,0 +1,11 @@
+
+.Waves {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  perspective: 1000px;
+}
+
+.Waves-bar-wrapper {
+}

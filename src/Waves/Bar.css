@@ -1,0 +1,46 @@
+
+.Bar {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  transition: all 0.4s;
+  margin: 0 -1px;
+}
+.Bar.distance-0 {
+  transform: scale(2);
+  margin: 0 20px;
+}
+.Bar.distance-1 {
+  transform: scale(1.4);
+  margin: 0 8px;
+}
+.Bar.distance-2 {
+  transform: scale(1.1);
+  margin: 0 2px;
+}
+
+.Bar-text {
+  transition: all 0.4s;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px ;
+  font-size: 30px;
+  font-family: sans-serif;
+  background: linear-gradient(0, darkgreen, #014801);
+  transform: translateX(-50%) rotate(90deg) skewX(20deg);
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+.Bar-text.distance-0 {
+  transform: translateX(-50%) rotate(90deg) skewX(0);
+}
+.Bar-text.distance-1 {
+  transform: translateX(-50%) rotate(90deg) skewX(10deg);
+}
+.Bar-text.distance-2 {
+  transform: translateX(-50%) rotate(90deg) skewX(20deg);
+}
